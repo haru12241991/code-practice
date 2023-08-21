@@ -1,0 +1,26 @@
+@use "global" as *;
+
+.c-section-title {
+  display: inline-block;
+}
+
+.c-section-title__en{
+  font-weight: $bold;
+  font-size: rem(32);
+  
+  @include mq('md'){
+    font-size: rem(48);
+  }
+}
+
+.c-section-title__ja{
+  font-weight: $regular;
+  font-size: rem(16);
+  text-decoration: underline 1px solid $green;
+  text-underline-offset:0.5em;
+  text-align: center;
+  
+  @include mq("md") {
+    font-size: rem(24);
+  }
+}

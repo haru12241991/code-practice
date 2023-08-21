@@ -17,9 +17,6 @@ $base-font-family: 'Noto Sans JP', sans-serif;
 $second-font-family: 'Inter', sans-serif;
 // ※検証ツールでしっかり反映されているか確認する
 
-body {
-  font-family: $base-font-family;
-}
 
 // フォントウェイト
 $regular: 300;
@@ -41,3 +38,9 @@ $light-gray: #F7F7F7;
 $light-gray2: #F1F0F0;
 $deep-gray: #4D4D4D;
 $brown: #AF9E97;
+
+
+body {
+  font-family: $base-font-family;
+  color: $black;
+}
