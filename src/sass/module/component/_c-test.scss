@@ -1,6 +1,7 @@
 @use "global" as *;
 
 
-.test{
+.c-test{
   font-family: $base-font-family;
+  color: red;
 }
